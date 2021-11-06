@@ -4,8 +4,8 @@ body {
     } 
 
 main {
-    width: 80%;
-    margin: 50px auto 50px;
+    
+    margin: 0px auto 0px;
     }
 
 h1 {
@@ -28,6 +28,7 @@ padding: 5px;
 font-size: 15px;
 border:2px solid #2A5943;
 border-radius: 5px;
+
 }
 
 button {
@@ -35,12 +36,12 @@ background-color:#D9895B;
 color: whitesmoke;
 border: 2px solid #2A5943;
 border-radius: 5px;
-
 }
 
 ul{
     list-style: none;
-    padding: 0;
+    padding: 0 1.5vh;
+    
 }
 
 ul li{
@@ -72,9 +73,29 @@ ul li h3{
 ul li p{
         text-align: left;
         padding: 0 15px;
-        
-        
 }
+
+#add  {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+    
+#add label {
+    line-height: 30px;
+}
+
+#add input {
+    margin-bottom: 25px;
+    
+}
+
+#add button {
+    display:block;  
+    position:relative;
+    left:44%;
+}
+
 
 @media (min-width: 568px) {
     body {

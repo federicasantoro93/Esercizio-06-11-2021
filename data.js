@@ -15,8 +15,25 @@ export const data = [
         name: "Lavender",
         properties: "calming and antimicrobial properties",
         harvest: "July",
-        img:"https://cdn.w600.comps.canstockphoto.it/dolce-lavanda-erba-disegno_csp9472539.jpg"
+        img:"https://cdn.w600.comps.canstockphoto.it/lavanda-mano-acquarello-fondo-clipart_csp45036116.jpg"
     },
-    
+    {
+        name: "Hypericum",
+        properties: "tonic and balsamic properties",
+        harvest: "July",
+        img:"https://cdn.w600.comps.canstockphoto.it/inglese-erba-timo-vettore-clipart_csp8458516.jpg"
+    },
+    {
+        name: "Basil",
+        properties: "antispasmodic, stomachic and carminative properties",
+        harvest: "July",
+        img:"https://cdn.w600.comps.canstockphoto.it/pittura-basil-fondo-acquarello-disegni_csp45034334.jpg"
+    },
+    {
+        name: "Thyme",
+        properties: "tonic, stomachic and balsamic properties",
+        harvest: "June",
+        img:"https://cdn.w600.comps.canstockphoto.it/pittura-fondo-thyme-acquarello-disegno_csp45034346.jpg"
+    },
 ]
     

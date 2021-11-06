@@ -16,9 +16,10 @@
         <header>
             <h1>Medicinal Plants Widget</h1>
         </header>
+        <!--SEARCH FORM-->
         <form>
             <label for="search"> Search among the plants:</label>
-            <input type="text" id= "search" name="search" placeholder="es:Rosemary" autocomplete="off">
+            <input type="text" id= "search" name="search" placeholder="es: Rosemary" autocomplete="off">
             <!--<button>Search</button>-->
         </form>
         <ul>
@@ -29,6 +30,19 @@
                 <p><strong>Harvest:</strong>June, July</p>
             </li>-->    
         </ul>
+        <!--ADD FORM-->
+        <h2>Enter the data to create a new card:</h2>
+        <form id="add">
+            <label for="name">Plant name:</label>
+            <input type="text" id="name" name="name" placeholder="Type the name"  autocomplete="off" required/>
+            <label for="properties">Plant properties:</label>
+            <input type="text" id="properties" name="properties" placeholder="Type the properties of the plant"  autocomplete="off" required/>
+            <label for="harvest">Plant harvest:</label>
+            <input type="text" id="harvest" name="harvest" placeholder="Enter the month/s of harvest of the plant"  autocomplete="off" required/>
+            <label for="img">Plant image:</label>
+            <input type="text" id="img" name="img" placeholder="Type the url of the image"  autocomplete="off" required/>
+            <button id="addBtn">Create a new card</button>
+        </form>
     </main> 
     <script type="module" src="index.js"></script>
 </body>
