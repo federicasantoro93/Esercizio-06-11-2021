@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esercizio 06/11 07/11</title>
+    <title>Medicinal Plants Widget</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <h1>Medicinal Plants Widget</h1>
+    <main>
+        <header>
+            <h1>Medicinal Plants Widget</h1>
+        </header>
+        <form>
+            <label for="search"> Search among the plants:</label>
+            <input type="text" id= "search" name="search" placeholder="es:Rosemary" autocomplete="off">
+            <button>Search</button>
+        </form>
 
+        <ul>
+            <li>
+                <img class="img" src="https://cdn.w600.comps.canstockphoto.it/saggio-giardino-erba-vettore-eps_csp8458508.jpg" alt="Sage">
+                <h3>Sage</h3>
+                <p><strong>Properties:</strong>antimicrobial properties</p>
+                <p><strong>Harvest:</strong>June, July</p>
+            </li>
+       
+        </ul>
+    </main> 
     <script src="index.js"></script>
 </body>
 </html>

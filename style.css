@@ -1,10 +1,91 @@
 body {
-    font-family: 'Comfortaa', cursive;
-} 
+    font-family: 'Courier Prime', monospace;
+    background-color: #D9BBA9 ;
+    } 
 
-
+main {
+    width: 80%;
+    margin: 50px auto 50px;
+    }
 
 h1 {
-    color: black;
-    font-weight:bold;
+    font-family: 'Courgette', cursive;
+    font-weight: 400;
+    font-size: regular;
+    color: #2A5943;
+       
 }
+
+form label {
+    display:block;
+    margin-bottom: 10px;
+}
+
+form input,
+form button {
+line-height: 20px;
+padding: 5px;
+font-size: 15px;
+border:2px solid #2A5943;
+border-radius: 5px;
+}
+
+button {
+background-color:#D9895B;
+color: whitesmoke;
+border: 2px solid #2A5943;
+border-radius: 5px;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    border: 8px solid whitesmoke;
+    margin: 30px 0;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    color: #2A5943;
+}
+
+
+ul li .img {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+    
+    
+}
+
+ul li h3{
+    font-weight: 700;
+    font-size: bold;
+    font-style: italic;
+    line-height: 30px;
+}
+
+ul li p{
+        text-align: left;
+        padding: 0 15px;
+        
+        
+}
+
+@media (min-width: 568px) {
+    body {
+        font-family: 'Courier Prime', monospace;
+        background-color: #D9BBA9 ;
+        text-align: center;
+        align-items: center;
+    }   
+    ul {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      column-gap: 10px;
+    }
+  }
