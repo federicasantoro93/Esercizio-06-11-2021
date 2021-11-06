@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         name: "Sage",
         properties: "antimicrobial properties",
@@ -15,7 +15,7 @@ const data = [
         name: "Lavender",
         properties: "calming and antimicrobial properties",
         harvest: "July",
-        img:"https://cdn.w600.comps.canstockphoto.it/saggio-giardino-erba-vettore-eps_csp8458508.jpg"
+        img:"https://cdn.w600.comps.canstockphoto.it/dolce-lavanda-erba-disegno_csp9472539.jpg"
     },
     
 ]
