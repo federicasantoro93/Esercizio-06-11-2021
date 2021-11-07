@@ -15,7 +15,7 @@ export const data = [
         name: "Lavender",
         properties: "calming and antimicrobial properties",
         harvest: "July",
-        img:"https://cdn.w600.comps.canstockphoto.it/lavanda-mano-acquarello-fondo-clipart_csp45036116.jpg"
+        img:"https://www.erbecedario.it/media/wysiwyg/Erbe/lavanda.jpg"
     },
     {
         name: "Hypericum",
