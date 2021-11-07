@@ -19,9 +19,9 @@ export const data = [
     },
     {
         name: "Hypericum",
-        properties: "tonic and balsamic properties",
-        harvest: "July",
-        img:"https://cdn.w600.comps.canstockphoto.it/inglese-erba-timo-vettore-clipart_csp8458516.jpg"
+        properties: "anti-inflammatory, healing, antidepressant and anxiolytic properties",
+        harvest: "June",
+        img:"https://cdn.w600.comps.canstockphoto.it/isolato-illustrazione-mano-acquarello-archivio-illustrazioni_csp45033384.jpg"
     },
     {
         name: "Basil",
