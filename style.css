@@ -16,6 +16,10 @@ h1 {
        
 }
 
+h2 {
+    color: #2A5943;
+}
+
 form label {
     display:block;
     margin-bottom: 10px;
@@ -58,7 +62,8 @@ ul li{
 ul li .img {
     width: 250px;
     height: auto;
-    padding: 0px 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
     
     
 }
@@ -72,7 +77,8 @@ ul li h3{
 
 ul li p{
         text-align: left;
-        padding: 0 15px;
+        padding: 0 35px;
+        
 }
 
 #add  {
@@ -91,9 +97,9 @@ ul li p{
 }
 
 #add button {
-    display:block;  
-    position:relative;
-    left:44%;
+    display: block;  
+    position: relative;
+    left: 45%;
 }
 
 

@@ -3,13 +3,13 @@ export const data = [
         name: "Sage",
         properties: "antimicrobial properties",
         harvest: "June, July",
-        img:"https://cdn.w600.comps.canstockphoto.it/saggio-giardino-erba-vettore-eps_csp8458508.jpg"
+        img:"https://www.erbecedario.it/media/wysiwyg/Erbe/Salvia-officinalis-L.jpg"
     },
     {
         name: "Rosemary",
         properties: "digestive and antispasmodic properties",
         harvest: "June",
-        img:"https://cdn.w600.comps.canstockphoto.it/erba-rosmarino-vettore-clipart_csp8458495.jpg"
+        img:"https://www.erbecedario.it/media/wysiwyg/Erbe/Rosmarinus-officinalis.jpg"
     },
     {
         name: "Lavender",
@@ -21,19 +21,31 @@ export const data = [
         name: "Hypericum",
         properties: "anti-inflammatory, healing, antidepressant and anxiolytic properties",
         harvest: "June",
-        img:"https://cdn.w600.comps.canstockphoto.it/isolato-illustrazione-mano-acquarello-archivio-illustrazioni_csp45033384.jpg"
+        img:"https://www.erbecedario.it/media/wysiwyg/Erbe/iperico-hypericum-perforatum.jpg"
     },
     {
         name: "Basil",
         properties: "antispasmodic, stomachic and carminative properties",
         harvest: "July",
-        img:"https://cdn.w600.comps.canstockphoto.it/pittura-basil-fondo-acquarello-disegni_csp45034334.jpg"
+        img:"https://www.erbecedario.it/media/wysiwyg/Erbe/basilico.jpg"
     },
     {
         name: "Thyme",
         properties: "tonic, stomachic and balsamic properties",
         harvest: "June",
-        img:"https://cdn.w600.comps.canstockphoto.it/pittura-fondo-thyme-acquarello-disegno_csp45034346.jpg"
+        img:"https://www.erbecedario.it/media/wysiwyg/Erbe/thymus-vulgaris.jpg"
+    },
+    {
+        name: "Anise",
+        properties: "digestive and calming properties",
+        harvest: "August",
+        img:"https://www.erbecedario.it/media/wysiwyg/Erbe/anice-verde.jpg"
+    },
+    {
+        name: "Chamomile",
+        properties: "antispasmodic, stomachic and anti-inflammatory properties",
+        harvest: "August",
+        img:"https://www.erbecedario.it/media/wysiwyg/Erbe/Matricaria-chamomilla.jpg"
     },
 ]
     
